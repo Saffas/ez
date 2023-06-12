@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="80e86650c6964fb4ae28e18d818adc96" Name="Diagram1">
+        <EntityTypeShape EntityType="EXModel.Manufacturer" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXModel.OrderProduct" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXModel.PicUpPoint" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXModel.Product" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EXModel.Status" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="EXModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="EXModel.FK_Order_PicUpPoint" ManuallyRouted="false" />
+        <AssociationConnector Association="EXModel.FK_Order_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="EXModel.FK_OrderProduct_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="EXModel.FK_OrderProduct_Product" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
